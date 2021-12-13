@@ -1,0 +1,131 @@
+body {
+    font-family: 'Monospace', 'Arial';
+    background: url('https://wallpaperaccess.com/full/42613.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    width:100%;
+}
+
+#root {
+    width: 70%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+
+header {
+    /* border: 1px solid black; */
+    margin-top:15px;
+    height: 150px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0eDjbKiL1Xx_XJgP6KZwKAxZN9bNWsjL7S_YEZtb1qPJwT7vGyM0S25gA9Bm3rdotHac&usqp=CAU');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    opacity: 0.8;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header:hover{
+    opacity: 1;
+    transition: 2s;
+}
+
+h1 {
+    position: absolute;
+    right: 20%;
+    top: 40px;
+}
+
+#main {
+    margin: 0 5%;
+    background: white;
+    opacity: 0.9;
+    border-radius: 10px;
+    object-fit: contain;
+
+    /* width: 60%;
+    margin: auto; */
+}
+
+img {
+    height: 350px;
+    cursor: pointer;
+}
+
+img:hover{
+    transform: scale(0.99);
+}
+
+.movie-description{
+    margin: 20px;
+}
+
+#input-text {
+    width: 400px;
+    text-align: center;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+select, input {
+    font-size: 1em;
+    outline: none;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#select-movies{
+   border:1px solid grey;
+}
+
+#submit-btn{
+     cursor: pointer;
+     font-size: bold;
+}
+
+#submit-btn:active {
+    transform: scale(0.95);
+}
+
+#movie-details {
+    text-align: center;
+}
+
+.li-text {
+    padding-bottom: 12px;
+}
+
+#form{
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 900px){
+    h1{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 672px){
+    #input-text{
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 514px){
+    #input-text{
+        max-width: 100px;
+    }
+}
+
+@media screen and (max-width: 432px){
+    #select-movies{
+        max-width: 200px;
+    }
+}
