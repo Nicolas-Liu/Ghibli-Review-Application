@@ -3,18 +3,16 @@ body {
     background: url('https://wallpaperaccess.com/full/42613.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 150vh;
+    height: 180vh;
     width:100%;
 }
 
 #root {
     width: 70%;
     margin: auto;
-    /* border: 1px solid black; */
 }
 
 header {
-    /* border: 1px solid black; */
     margin-top:15px;
     height: 150px;
     background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0eDjbKiL1Xx_XJgP6KZwKAxZN9bNWsjL7S_YEZtb1qPJwT7vGyM0S25gA9Bm3rdotHac&usqp=CAU');
@@ -35,8 +33,10 @@ header:hover{
 
 h1 {
     position: absolute;
+    font-size: 800;
     right: 20%;
     top: 40px;
+    color:rgba(67, 176, 209)
 }
 
 #main {
@@ -105,7 +105,7 @@ select, input {
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 980px){
     h1{
         display:none;
     }
